@@ -1,0 +1,3 @@
+git clone https://github.com/coleifer/peewee.git
+cd peewee
+python setup.py install

@@ -1,0 +1,1 @@
+python -m pip install --no-index --find-links=".\packages4py310linux" -r ..\requirements_linux.txt

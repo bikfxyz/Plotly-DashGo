@@ -1,0 +1,1 @@
+uv pip freeze > .\requirements_win-new.txt
