@@ -1,0 +1,1 @@
+uv pip install -r ..\requirements_win.txt
