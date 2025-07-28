@@ -3,13 +3,13 @@ from dash import html
 from common.constant import HttpStatusConstant
 
 
-def render():
+def render_content(*args, **kwargs):
     return html.Div(
         [
             html.Div(
                 [
                     fac.AntdResult(
-                        status=str(HttpStatusConstant.UNAUTHORIZED),
+                        status=str(HttpStatusConstant.FORBIDDEN),
                         title='您没有权限访问该页面',
                         subTitle='如需访问，请联系系统管理员',
                         style={'paddingBottom': 0, 'paddingTop': 0},
